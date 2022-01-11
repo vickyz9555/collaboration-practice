@@ -7,7 +7,6 @@
 #### 7 Vicky was here!
 #### 8
 #### 9 GitHub is really awesome
-#### 9 
 #### 10
 #### 11
 #### 12
