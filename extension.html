@@ -18,12 +18,20 @@
             .merging {
                 border: 5px dashed black;
                 padding: 20px;
+                margin: 20px; 
             }
             h1 {
                 text-align: center;
                 padding-bottom: 20px;
             }    
-            
+            .automatic {
+                border: 5px dashed green;
+                padding: 20px;
+            }
+            .conflict {
+                border: 5px dashed red;
+                padding: 20px;
+            }
         </style>
         
         <title>Collaboration Practice</title>
@@ -45,13 +53,13 @@
                 </li>
             </ul>
         </div>
-        <div>
+        <div class="automatic">
             <h2>Automatic Merge</h2>
             <ul>
                 <li>Remote and local have different text in different places</li>
             </ul>
         </div>
-        <div>
+        <div class="conflict">
             <h2>Merge Conflict</h2>
             <ul>
                 <li>Remote and local have different text in the same place</li>
